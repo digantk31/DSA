@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // only for understanding purpose (There will be not a output of this Programm)
+    // O(1) Operation
 
     stack<int> st;
 
