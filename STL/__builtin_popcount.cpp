@@ -3,8 +3,6 @@ using namespace std;
 
 int main()
 {
-    // only for understanding purpose (There will be not a output of this Programm)
-
     // How many 1's and sets are there in binary
     int num1 = 7;
     cout << __builtin_popcount(num1); // 3
