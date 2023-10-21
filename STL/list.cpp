@@ -7,12 +7,12 @@ int main()
 
     list<int> ls;
 
-    ls.push_back(5); //{5}
+    ls.push_back(5);    //{5}
     ls.emplace_back(3); //{5, 3}
 
-    ls.push_front(9); //{9, 5, 3}
-    ls.emplace_front();
-    
+    ls.push_front(9);    //{9, 5, 3}
+    ls.emplace_front(4); //{4, 9, 5, 3}
+
     // rest functions same as vector
     // begin, end, rbegin, rend, insert, clear, size, swap
 
