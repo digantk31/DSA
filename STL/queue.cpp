@@ -22,6 +22,6 @@ int main()
     // q is {10, 7}
     cout << q.front(); // 10
 
-    // size, swap and empty same as stack
+    // size, swap and empty function same as stack
     return 0;
 }
